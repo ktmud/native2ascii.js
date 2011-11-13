@@ -23,17 +23,7 @@ function native2ascii(str) {
 
 
 function ascii2native(str) {
-  var character = str.split('\\u');
-  var nativeChar = character[0];
-  for (var i = 0; i < character.length; i++) {
-    var code = character[i];
-    if (code.trim() === '') continue;
-    if (code.length === 4)
-      nativeChar += String.fromCharCode(parseInt('0x' + code.substring(0, 4)));
-    if (code.length > 4)
-      nativeChar += code.substring(4, code.length);
-  }
-  return nativeChar;
+  return unescape(str.split('\\').join('%'));
 }
 
 
