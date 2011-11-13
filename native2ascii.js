@@ -28,8 +28,8 @@ function ascii2native(str) {
   for (var i = 0; i < character.length; i++) {
     var code = character[i];
     if (code.trim() === '') continue;
-    nativeChar += String.fromCharCode(parseInt('0x' + code.substring(0, 4)));
     if (code.length > 4) {
+      nativeChar += String.fromCharCode(parseInt('0x' + code.substring(0, 4)));
       nativeChar += code.substring(4, code.length);
     }
   }
