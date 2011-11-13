@@ -1,7 +1,7 @@
 {
   "name": "native2ascii",
   "description": "native2ascii",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "authors": ["yyfrankyy@gmail.com (Frank Xu)"],
   "keywords": ["native2ascii", "ascii", "encode", "decode"],
   "main": "./native2ascii.js"
