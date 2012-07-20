@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>native2ascii.js by yyfrankyy</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/yyfrankyy/native2ascii.js">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>native2ascii.js</h1>
+            <h2>native2ascii in nodejs</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/yyfrankyy/native2ascii.js/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/yyfrankyy/native2ascii.js/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h3>native2ascii and vice versa</h3>
+
+<p>This is a pure JavaScript implmentation of native2ascii, convert character to UTF8-Decoded string, and vice versa.</p>
+
+<h3>install and usages</h3>
+
+<p>Install it from <code>npm</code>.</p>
+
+<pre><code>$ npm install native2ascii
+</code></pre>
+
+<p>It simply provided two functions for converting.</p>
+
+<div class="highlight">
+<pre><span class="nx">assert</span><span class="p">(</span><span class="nx">require</span><span class="p">(</span><span class="s1">'native2ascii'</span><span class="p">).</span><span class="nx">native2ascii</span><span class="p">(</span><span class="s1">'中'</span><span class="p">),</span> <span class="s1">'\\u4e2d'</span><span class="p">)</span>
+<span class="nx">assert</span><span class="p">(</span><span class="nx">require</span><span class="p">(</span><span class="s1">'native2ascii'</span><span class="p">).</span><span class="nx">ascii2native</span><span class="p">(</span><span class="s1">'\\u4e2d'</span><span class="p">),</span> <span class="s1">'中'</span><span class="p">)</span>
+</pre>
+</div>
+
+
+<h3>Support or Contact</h3>
+
+<p>Any question or bug, please <a href="https://github.com/yyfrankyy/native2ascii.js/issues/new">fire a issue</a>.</p>
+
+<p>Anything else, feel free to contact me <a href="https://github.com/yyfrankyy" class="user-mention">@yyfrankyy</a></p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/yyfrankyy">yyfrankyy</a> can be found on <a href="https://github.com/yyfrankyy/native2ascii.js">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-9087046-8");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
